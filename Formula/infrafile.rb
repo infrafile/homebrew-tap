@@ -1,27 +1,27 @@
 class Infrafile < Formula
   desc "Git-backed infrastructure ledger with credential references and read-only MCP"
   homepage "https://github.com/infrafile/infrafile"
-  version "0.1.0"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/infrafile/infrafile/releases/download/v0.1.0/infrafile_0.1.0_darwin_arm64.tar.gz"
-      sha256 "afee1a37bcd4d78c461b7ef8149563d362fb7d2647bf797118b40b370df5d6bc"
+      url "https://github.com/infrafile/infrafile/releases/download/v0.2.0/infrafile_0.2.0_darwin_arm64.tar.gz"
+      sha256 "4a017f0a9ba2fcca16cefa37c3c9da2d455822839a193ddc1fb6c5bd0dc995c1"
     end
     on_intel do
-      url "https://github.com/infrafile/infrafile/releases/download/v0.1.0/infrafile_0.1.0_darwin_amd64.tar.gz"
-      sha256 "4909d39f124e8e5f5748e679d125b9bb43ad86bb1d26a6276393bd8032f316ef"
+      url "https://github.com/infrafile/infrafile/releases/download/v0.2.0/infrafile_0.2.0_darwin_amd64.tar.gz"
+      sha256 "d7b65495ca1c2aa9ec362e6a42faba2d839a204caba9ca463cb872c13e3631cd"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/infrafile/infrafile/releases/download/v0.1.0/infrafile_0.1.0_linux_arm64.tar.gz"
-      sha256 "18e0cad31c00dbb0e4312095700902761f158af717a60128277b47f3b1b8e31f"
+      url "https://github.com/infrafile/infrafile/releases/download/v0.2.0/infrafile_0.2.0_linux_arm64.tar.gz"
+      sha256 "835bf586f1dfbacccad20b661603e84c3ce76e8b7511f797f4866cdcc2ebe31a"
     end
     on_intel do
-      url "https://github.com/infrafile/infrafile/releases/download/v0.1.0/infrafile_0.1.0_linux_amd64.tar.gz"
-      sha256 "fb2d2bcd636e270437766639cdd926e327d4905c15927f89b2d7ac9b11e64df4"
+      url "https://github.com/infrafile/infrafile/releases/download/v0.2.0/infrafile_0.2.0_linux_amd64.tar.gz"
+      sha256 "98861ec2638fea0398fbbdc5df42287422ba265d2ba37854824695dd620eee51"
     end
   end
 
